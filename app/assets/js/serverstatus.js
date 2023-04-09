@@ -47,7 +47,7 @@ exports.getStatus = function(address, port = 25565){
                     })
                 } else {
                     resolve({
-                        online: false
+                        online: true
                     })
                 }
             }
