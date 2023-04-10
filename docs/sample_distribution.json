@@ -11,16 +11,16 @@
     "rss": "https://forum.westeroscraft.com/forum/news.2/index.rss",
     "servers": [
         {
-            "id": "WesterosCraft-1.11.2",
+            "id": "Piaria-1.12.2",
             "name": "WesterosCraft Production Server",
             "description": "Main WesterosCraft server. Connect to enter the Realm.",
-            "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-prod.png",
-            "version": "3.9.4",
+            "icon": "https://piaria.wstr.fr/storage/img/icon.png",
+            "version": "1.0.0",
             "address": "mc.westeroscraft.com",
-            "minecraftVersion": "1.11.2",
+            "minecraftVersion": "1.12.2",
             "discord": {
                 "shortId": "Production",
-                "largeImageText": "WesterosCraft Production Server",
+                "largeImageText": "Piaria Production Server",
                 "largeImageKey": "server-prod"
             },
             "mainServer": true,
@@ -33,7 +33,7 @@
                     "artifact": {
                         "size": 4450992,
                         "MD5": "3fcc9b0104f0261397d3cc897e55a1c5",
-                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
+                        "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar"
                     },
                     "subModules": [
                         {
@@ -41,19 +41,19 @@
                             "name": "Mojang (LaunchWrapper)",
                             "type": "Library",
                             "artifact": {
-                                "size": 32999,
-                                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/launchwrapper-1.12.jar"
+                                "size": 165000,
+                                "MD5E": "934b2d91c7c5be4a49577c9e6b40e8da",
+                                "url": "https://github.com/Minikikou/PiariaLauncher/releases/download/modpack/Ambience+1.1-10.jar"
                             }
                         },
                         {
                             "id": "org.ow2.asm:asm-all:5.0.3",
-                            "name": "Mojang (ASM)",
+                            "name": "Mojang (baubles)",
                             "type": "Library",
                             "artifact": {
-                                "size": 241639,
-                                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
-                                "url": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/1.11.2/asm-all-5.0.3.jar"
+                                "size": 106000,
+                                "MD5E": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                                "url": "https://github.com/Minikikou/PiariaLauncher/releases/download/modpack/Baubles-1.12-1.5.2.jar"
                             }
                         },
                         {
